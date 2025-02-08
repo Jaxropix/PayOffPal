@@ -1,0 +1,729 @@
+/* it’s not easy being a twenty-first century student */
+
+.main-header {
+position: absolute;
+width: 867px;
+height: 124px;
+left: 286px;
+top: 208px;
+
+font-family: 'Montagu Slab',serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 62px;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* Rectangle 12 */
+
+.rectangle-12 {
+position: absolute;
+width: 1441px;
+height: 174px;
+left: 0px;
+top: -6px;
+
+background: #385E3C;
+}
+
+/* pop_logog-removebg-preview (1) 1 */
+
+.logo-1 {
+position: absolute;
+width: 261px;
+height: 141px;
+left: 1161px;
+top: 0px;
+
+background: url('pop_logog-removebg-preview (1).png');
+}
+
+/* pop_logog-removebg-preview (3) 1 */
+
+.logo-2 {
+position: absolute;
+width: 356px;
+height: 83px;
+left: 28px;
+top: 40px;
+
+background: url('pop_logog-removebg-preview (3).png');
+}
+
+/* Line 1 */
+.line-1 {
+position: absolute;
+width: 358px;
+height: 0px;
+left: 720px;
+top: 349px;
+
+border: 3px solid #385E3C;
+transform: rotate(90deg);
+}
+
+/* Rectangle 17 */
+.rectangle-17 {
+position: absolute;
+width: 595px;
+height: 193px;
+left: 86px;
+top: 367px;
+
+background: #B9CCAB;
+border-radius: 25px;
+}
+
+/* Rectangle 18 */
+.rectangle-18 {
+position: absolute;
+width: 555px;
+height: 162px;
+left: 797px;
+top: 366px;
+
+background: #B9CCAB;
+border-radius: 25px;
+}
+
+/* adults under forty retain their student loan debt */
+.text-block-1 {
+position: absolute;
+width: 247px;
+height: 90px;
+left: 397px;
+top: 418px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+line-height: 33px;
+
+color: #000000;
+}
+
+
+/* Managing loans can feel overwhelming, but with the right tools by your side, it’s easier than ever to stay in control. */
+.text-block-2 {
+position: absolute;
+width: 558px;
+height: 102px;
+left: 107px;
+top: 602px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* one in four */
+.text-block-3 {
+position: absolute;
+width: 394px;
+height: 96px;
+left: 55px;
+top: 503px;
+
+font-family: 'Montagu Slab', serif;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 45px;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* one-in-four-students 1 */
+.image-1 {
+position: absolute;
+width: 265px;
+height: 199px;
+left: 119px;
+top: 349px;
+
+background: url(one-in-four-students.png) no-repeat center center;
+background-size: contain;
+}
+
+
+/* pop_logog-removebg-preview (5) 1 */
+.logo-3 {
+position: absolute;
+width: 125px;
+height: 125px;
+left: 1162px;
+top: 387px;
+
+background: url('pop_logog-removebg-preview (5).png') no-repeat center center;
+background-size: contain;
+}
+
+/* 4.8/5.0 */
+.rating {
+position: absolute;
+width: 242px;
+height: 83px;
+left: 911px;
+top: 399px;
+
+font-family: 'Montagu Slab',serif;
+font-style: normal;
+font-weight: 600;
+font-size: 65px;
+line-height: 83px;
+text-align: center;
+
+color: #000000;
+}
+
+
+
+/* “POP only took a few minutes for me to set up, but it kept me so disciplined!” */
+.testimonial-1 {
+position: absolute;
+width: 577px;
+height: 47px;
+left: 779px;
+top: 560px;
+
+font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* “This site was so easy to navigate, but it did wonders for my financial literacy!” */
+.testimonial-2 {
+position: absolute;
+width: 583px;
+height: 47px;
+left: 769px;
+top: 639px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+}
+
+/* Rectangle 8 */
+.rectangle-8 {
+    position: absolute;
+    width: 444px;
+    height: 88px;
+    left: 497px;
+    top: 758px;
+    background: #24562B;
+    border-radius: 35px;
+  }
+  
+  /* Let us help you out */
+  .text-help {
+    position: absolute;
+    width: 444px;
+    height: 42px;
+    left: 498px;
+    top: 773px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFDFD;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Rectangle 1 */
+.rectangle-1 {
+    position: absolute;
+    width: 1366px;
+    height: 135px;
+    left: 39px;
+    top: 33px;
+    background: #486A47;
+  }
+
+ 
+/* Welcome to */
+.welcome-to {
+position: absolute;
+width: 295px;
+height: 62px;
+left: 476px;
+top: 70px;
+
+font-family: 'Montagu Slab', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+/* pop_logog-removebg-preview (3) 1 */
+.pop-logo-portion {
+position: absolute;
+width: 241px;
+height: 56px;
+left: 765px;
+top: 76px;
+
+background: url('pop_logog-removebg-preview (3).png');
+}
+
+
+
+  /* Enter Interest Rate (APY): */
+.interest-rate-label {
+    position: absolute;
+    width: 382px;
+    height: 35px;
+    left: 118px;
+    top: 232px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+  }
+
+    /* Rectangle 6 */
+  .rectangle-6 {
+    position: absolute;
+    width: 185.35px;
+    height: 35.17px;
+    left: 500px;
+    top: 232px;
+
+    background: #B9CCAB;
+    border-radius: 25px;
+}
+
+.enter-term-length {
+    position: absolute;
+    width: 333.42px;
+    height: 35.17px;
+    left: 118px;
+    top: 313.77px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+/* Rectangle 13 */
+.rectangle-13 {
+position: absolute;
+width: 185.35px;
+height: 35.17px;
+left: 415px;
+top: 314px;
+
+background: #B9CCAB;
+border-radius: 25px;
+}
+
+/* (in months) */
+.in-months {
+position: absolute;
+width: 198.81px;
+height: 35.17px;
+left: 614px;
+top: 314px;
+
+font-family: 'Montagu Slab', serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+
+color: #000000;
+}
+
+/* When was this loan initialized? */
+.when-Loan-Initiated {
+position: absolute;
+width: 445px;
+height: 36px;
+left: 118px;
+top: 393px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+/* Rectangle 14 */
+.rectangle-14 {
+position: absolute;
+width: 185.35px;
+height: 35.17px;
+left: 583px;
+top: 393px;
+
+background: #B9CCAB;
+border-radius: 25px;
+}
+
+/* (YYYY/MM/DD) */
+.date-Format {
+position: absolute;
+width: 252px;
+height: 38px;
+left: 788px;
+top: 393px;
+
+font-family: 'Montagu Slab', serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+
+color: #000000;
+}
+
+/* Minimum Monthly Payment ($): */
+.min-Monthly-Payment {
+position: absolute;
+width: 482px;
+height: 35px;
+left: 118px;
+top: 473px;
+
+font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+/* Rectangle 8 */
+.rectangle-8 {
+position: absolute;
+width: 185.35px;
+height: 35.17px;
+left: 585.5px;
+top: 473px;
+
+background: #B9CCAB;
+border-radius: 25px;
+}
+
+/* Have you paid off any amount yet? */
+.whether-Paid-Portion {
+position: absolute;
+width: 603.68px;
+height: 35.17px;
+left: 118px;
+top: 555px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+/* Yes, I have */
+.yes-I-Have {
+position: absolute;
+width: 192px;
+height: 35px;
+left: 203px;
+top: 618px;
+
+font-family: 'Montagu Slab', serif;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 38px;
+
+color: #000000;
+}
+
+/* Not Yet */
+.not-Yet {
+position: absolute;
+width: 161px;
+height: 35px;
+left: 453px;
+top: 618px;
+
+font-family: 'Montagu Slab',serif;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 38px;
+
+color: #000000;
+}
+
+/* How much have you paid towards your account? $ */
+.how-Much-Paid {
+position: absolute;
+width: 764px;
+height: 53px;
+left: 118px;
+top: 685px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+/* Rectangle 14 */
+.rectangle-14 {
+position: absolute;
+width: 185.35px;
+height: 35.17px;
+left: 882px;
+top: 685px;
+
+background: #B9CCAB;
+border-radius: 25px;
+}
+
+/* 🌟 I’m ready to take control of my loan and see my path to financial freedom! */
+.readers-Ready {
+position: absolute;
+width: 1104px;
+height: 36px;
+left: 189px;
+top: 791px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+/* Rectangle 10 */
+.rectangle-10 {
+position: absolute;
+width: 246px;
+height: 60px;
+left: 618px;
+top: 847px;
+
+background: #486A47;
+filter: blur(2px);
+border-radius: 25px;
+}
+
+/* Let’s Go!! */
+.lets-Go {
+position: absolute;
+width: 162px;
+height: 38px;
+left: 660px;
+top: 858px;
+
+font-family: 'Montagu Slab', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 38px;
+
+color: #FFFFFF;
+}
+
+/* If you pay $100 every month, you’ll be able to pay off your loan by */
+.if-Paid-100 {
+position: absolute;
+width: 872px;
+height: 122px;
+left: 280px;
+top: 112px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+
+color: #000000;
+}
+
+/* Rectangle 6 */
+.rectangle-6 {
+position: absolute;
+width: 745px;
+height: 144px;
+left: 347px;
+top: 266px;
+
+background: #486A47;
+border-radius: 25px;
+}
+
+/* keep up the good work! */
+.keep-Up {
+position: absolute;
+width: 330px;
+height: 70px;
+left: 555px;
+top: 426px;
+
+font-family: 'Inter', sans-serif;
+font-style: italic;
+font-weight: 600;
+font-size: 29px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+}
+
+/* customize your loan payments, look at personalized charts, */
+.customize-Your {
+position: absolute;
+width: 848px;
+height: 35px;
+left: 296px;
+top: 512px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 35px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+/* become a POP member! */
+.become-A {
+position: absolute;
+width: 339px;
+height: 70px;
+left: 551px;
+top: 554px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+}
+
+/* Rectangle 15 */
+.rectangle-15 {
+position: absolute;
+width: 352px;
+height: 107px;
+left: 347px;
+top: 624px;
+
+background: #24562B;
+border-radius: 30px;
+}
+
+/* sign in */
+.sign-In {
+position: absolute;
+width: 108px;
+height: 37px;
+left: 469px;
+top: 660px;
+
+font-family: 'Montagu Slab', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 37px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Rectangle 16 */
+.rectangle-16 {
+position: absolute;
+width: 324px;
+height: 107px;
+left: 768px;
+top: 624px;
+
+background: #24562B;
+border-radius: 30px;
+}
+
+/* sign up */
+.sign-Up {
+position: absolute;
+width: 118px;
+height: 37px;
+left: 871px;
+top: 660px;
+
+font-family: 'Montagu Slab',serif;
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 37px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Rectangle 11 */
+.rectangle-11 {
+position: absolute;
+width: 1440px;
+height: 217px;
+left: 0px;
+top: 807px;
+
+background: #385E3C;
+}
