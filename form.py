@@ -64,15 +64,3 @@ def loan_info_form():
         }
     else:
         return None 
-
-
-
-loan_data = loan_info_form()
-
-if loan_data:
-    st.write("Loan Data Collected:")
-    st.write(loan_data)
-    user_loan = Loan()
-    user_loan.setLoanData(loan_data)
-
-    

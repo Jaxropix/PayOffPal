@@ -1,5 +1,11 @@
-from asyncio.windows_events import NULL
 import CapitalOneAPI
+import sys
+
+if sys.platform == "win32":
+    from asyncio.windows_events import NULL
+else:
+    NULL = None 
+
 
 class Loan:
     def __init__(self):
@@ -16,9 +22,8 @@ class Loan:
     def __str__(self):
         return f'Loan {self.id} is a {self.name} created on {self.createdDate}. The amount taken out is {self.amount} with a {self.interesttype} interest rate of {self.interestRate} to be paid off within {self.term} with a mean payment of {self.minPayment} each month'
 
-
     def GetLoan(id):
         return NULL
 
-    def SetLoanData(loanData):
+    def setLoanData(self, loanData):
         print(loanData)
