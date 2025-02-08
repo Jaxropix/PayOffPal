@@ -1,4 +1,4 @@
-from hmac import new
+from datetime import date
 import streamlit as st
 import Loan
 
@@ -14,6 +14,8 @@ def loan_info_form():
         st.session_state.minimumPayment = ""
     if "paidAmount" not in st.session_state:
         st.session_state.paidAmount = ""
+    if "creationDate" not in st.session_state:
+        st.session_state.creationDate = ""
     if "yes_button_pressed" not in st.session_state:
         st.session_state.yes_button_pressed = False
     if "no_button_pressed" not in st.session_state:
@@ -27,7 +29,8 @@ def loan_info_form():
         interestRatePrecentage = st.text_input("Enter Interest Rate (APR) (%):", placeholder="0.0", value=st.session_state.interestRatePrecentage)
         termLength = st.text_input("Enter Term Length (months):", placeholder="0", value=st.session_state.termLength)
         minimumPayment = st.text_input("Minimum Monthly Payment:", placeholder="0.0", value=st.session_state.minimumPayment)
-        
+        creationDate = st.date_input("Enter Loan Creation Date", value=date.today())
+
         st.write("Have you paid off any amount yet?")
         yesCol, noCol = st.columns(2)
         
@@ -53,6 +56,7 @@ def loan_info_form():
         st.session_state.termLength = termLength
         st.session_state.minimumPayment = minimumPayment
         st.session_state.paidAmount = paidAmount
+        st.session_state.creationDate = creationDate
 
         # Return collected form data
         return {
@@ -60,7 +64,8 @@ def loan_info_form():
             "interestRatePrecentage": st.session_state.interestRatePrecentage,
             "termLength": st.session_state.termLength,
             "minimumPayment": st.session_state.minimumPayment,
-            "paidAmount": st.session_state.paidAmount
+            "paidAmount": st.session_state.paidAmount,
+            "creationDate": st.session_state.creationDate
         }
     else:
         return None 
@@ -72,7 +77,7 @@ loan_data = loan_info_form()
 if loan_data:
     st.write("Loan Data Collected:")
     st.write(loan_data)
-    user_loan = Loan()
-    user_loan.setLoanData(loan_data)
+    user_loan = Loan.Loan()
+    user_loan.SetLoanData(loan_data)
 
     
