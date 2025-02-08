@@ -1,4 +1,6 @@
+from hmac import new
 import streamlit as st
+import Loan
 
 def loan_info_form():
     
@@ -70,3 +72,7 @@ loan_data = loan_info_form()
 if loan_data:
     st.write("Loan Data Collected:")
     st.write(loan_data)
+    user_loan = Loan()
+    user_loan.setLoanData(loan_data)
+
+    
