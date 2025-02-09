@@ -33,6 +33,6 @@ if st.session_state.page == 'form':
         st.write("Loan Data Collected:")
         st.write(loan_data)
         user_loan = Loan()
-        user_loan.setLoanData(loan_data)
+        user_loan.SetLoanData(loan_data)
         st.session_state.page = 'main'
 
