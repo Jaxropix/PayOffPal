@@ -50,7 +50,7 @@ class Loan:
     def SetLoanData(self, loanData):
         principal = int(loanData["principalAmount"])
         term_length = int(loanData["termLength"])
-        interest_rate = int(loanData["interestRatePrecentage"])
+        interest_rate = float(loanData["interestRatePrecentage"])
         min_payment = int(loanData["minimumPayment"])
         paid = self.string_to_int(loanData["principalAmount"])
         creationDate = loanData["creationDate"]
