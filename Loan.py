@@ -1,4 +1,12 @@
 import CapitalOneAPI
+import sys
+
+if sys.platform == "win32":
+    from asyncio.windows_events import NULL
+else:
+    NULL = None 
+
+import CapitalOneAPI
 import os
 import numpy_financial as np
 
