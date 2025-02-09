@@ -34,5 +34,16 @@ if st.session_state.page == 'form':
         st.write(loan_data)
         user_loan = Loan()
         user_loan.SetLoanData(loan_data)
+        getData = user_loan.GetLoan()
+        
+        min_payment_amount = getData["montly_payment"] #amount
+        payment_months = getData["term_length"] #months
+
+        result_string = f"If you pay ${min_payment_amount:.2f} every month you'll be able to pay off your loan by {payment_months} months"
+        st.write(result_string)
+        st.write("Keep up the good work!")
+        st.write("Click Let's Go to go back to the main page")
+
+
         st.session_state.page = 'main'
 
