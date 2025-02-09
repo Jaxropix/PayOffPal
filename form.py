@@ -1,6 +1,5 @@
 from hmac import new
 import streamlit as st
-from datetime import date
 import Loan
 
 def loan_info_form():
@@ -13,8 +12,6 @@ def loan_info_form():
         st.session_state.termLength = ""
     if "minimumPayment" not in st.session_state:
         st.session_state.minimumPayment = ""
-    if "creationDate" not in st.session_state:
-        st.session_state.createdDate = date.today()
     if "paidAmount" not in st.session_state:
         st.session_state.paidAmount = ""
     if "yes_button_pressed" not in st.session_state:
@@ -29,7 +26,6 @@ def loan_info_form():
         principalAmount = st.text_input("Enter Loan Amount: $", placeholder="0.0", value=st.session_state.principalAmount)
         interestRatePrecentage = st.text_input("Enter Interest Rate (APR) (%):", placeholder="0.0", value=st.session_state.interestRatePrecentage)
         termLength = st.text_input("Enter Term Length (months):", placeholder="0", value=st.session_state.termLength)
-        creationDate = st.date_input("Enter Loan Creation Date:", value=date.today())
         minimumPayment = st.text_input("Minimum Monthly Payment:", placeholder="0.0", value=st.session_state.minimumPayment)
         
         st.write("Have you paid off any amount yet?")
@@ -56,7 +52,6 @@ def loan_info_form():
         st.session_state.interestRatePrecentage = interestRatePrecentage
         st.session_state.termLength = termLength
         st.session_state.minimumPayment = minimumPayment
-        st.session_state.creationDate = creationDate
         st.session_state.paidAmount = paidAmount
 
         # Return collected form data
@@ -65,7 +60,6 @@ def loan_info_form():
             "interestRatePrecentage": st.session_state.interestRatePrecentage,
             "termLength": st.session_state.termLength,
             "minimumPayment": st.session_state.minimumPayment,
-            "creationDate" : st.session_state.creationDate.strftime("%Y-%m-%d"),
             "paidAmount": st.session_state.paidAmount
         }
     else:
