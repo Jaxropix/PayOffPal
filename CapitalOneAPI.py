@@ -30,11 +30,15 @@ def CreateCapitalOneLoan(status, creditScore, monthlyPayment, amount, metadata):
         headers={'content-type' : 'application/json' }
         )
 
-    responseDictionary = response.json()
-    print(responseDictionary['objectCreated']['_id'])
-
+    
     if response.status_code == 201:
-	    print('account created')
+        print('account created')
+
+    responseDictionary = response.json()
+    print(response.json())
+    return responseDictionary['objectCreated']['_id']
+
+    
 
 
 def FindCustomer():
@@ -62,6 +66,7 @@ def GetCapitalOneLoanById(loanId):
     getLoanURLTemplate = os.getenv("GetLoan_Endpoint")
     url = getLoanURLTemplate.format(loanId, apiKey)
 
+    
     response = requests.get(
         url,
         headers={'content-type' : 'application/json' }
