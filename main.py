@@ -2,16 +2,28 @@ import streamlit as st
 import form 
 from Loan import Loan
 
-if 'page' not in st.session_state:
-    st.session_state.page = 'main'
+st.image("images/pop_logo.png", width=200)
 
 def go_to_page(page_name):
     st.session_state.page = page_name
 
+    with open('designs.html') as file:
+        html_content = file.read()
+        st.markdown(html_content, unsafe_allow_html=True)
+    
+if 'page' not in st.session_state:
+    st.session_state.page = 'main'
+    go_to_page("main")
+
 if st.session_state.page == 'main':
     st.title("Pay Off Pal")
+    studentCol, ratingCol = st.columns(2)
 
-    if st.button("Let us help you out"):
+    with studentCol:
+        st.image("images/one-in-four-students.png", width=200)
+    
+
+    if st.button("Let us help you out!"):
         go_to_page("form")
 
 if st.session_state.page == 'form':
